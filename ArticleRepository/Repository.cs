@@ -59,6 +59,7 @@ namespace ArticleRepository
                 return false;
             }
 
+            _context.ChangeTracker.Clear();
 
             _context.Update(articleToUpdate);
             var changesCount = _context.SaveChanges();
