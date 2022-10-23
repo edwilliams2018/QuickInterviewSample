@@ -348,3 +348,6 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/SampleWebApi/App.db-wal
+/SampleWebApi/App.db-shm
+/SampleWebApi/App.db
